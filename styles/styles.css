@@ -10,7 +10,7 @@ nav a {
 h1 {
     color: steelblue;
 }
-img{
+main img{
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -18,5 +18,35 @@ img{
     box-shadow: 0 0 30px gray;
 }
 p{
-    padding: 10px;
+    padding: 0;
+}
+main{
+    max-width: 850px;
+}
+aside{
+    width: 18rem;
+    margin: 1rem;
+    border: 1.5px gray;
+    padding: 1rem;
+    background-color: lightslategray;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 15px;
+}
+aside img{
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+footer{
+    margin-top: 45px;
+    border-top: 2px black;
+    text-align: center;
+    background-color: lightgrey;
+    height: 40px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px ;
+}
+header{
+    border-style: outset;
 }
