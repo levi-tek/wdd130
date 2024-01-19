@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poltawski+Nowy:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald:wght@600&family=Poltawski+Nowy:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@700&display=swap');
+:root{
+    --primary-color: #2E4057;
+    --secondary-color: #E2FCEF;
+    --accent1-color: #ce1766;
+    --accent2-color: #213438;
+
+    --heading-font: 'pridi', serif;
+    --papragraph-font: 'poltawski', serif;
+
+    --nav-background-color: poltawskigb(88, 187, 182);
+    --nav-link-color: #E1FAF9;
+    --nav-hover-link-color: #3066BE;
+    --nav-hover-backround-color: #4A5859;
+}
+body{
+    font-family: var(--papragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header{
+    padding: 22px;
+    background-color: var(--accent1-color);
+}
+p{
+    padding: 24px;
+}
+nav{
+    background-color: rgb(88, 187, 182);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1.2rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: white;
+}
+footer{
+    background-color: var(--accent1-color);
+}
+footer p{
+    font-family: oswald;
+}
