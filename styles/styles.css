@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -15,7 +20,10 @@ main img{
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px gray; 
+    float: right;
+    position: relative;
+    bottom: 30px;
 }
 p{
     padding: 0;
@@ -28,10 +36,9 @@ aside{
     margin: 1rem;
     border: 1.5px gray;
     padding: 1rem;
-    background-color: lightslategray;
-    color: aliceblue;
     text-align: center;
     border-radius: 15px;
+    position: relative;
 }
 aside img{
     width: 200px;
@@ -43,10 +50,30 @@ footer{
     border-top: 2px black;
     text-align: center;
     background-color: lightgrey;
-    height: 40px;
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px ;
 }
 header{
     border-style: outset;
+}
+/* Class slectors */
+.box{
+    margin: 1rem;
+    border: 1.2px beige;
+    padding: 1rem;
+    background-color: lightslategray ;
+    color: black;
+}
+#ul{
+    margin-top: 25px; 
+
+}
+#ul a{
+    color: blue;
+}
+#ul :hover{
+    color: aqua;
+}
+aside h2{
+    bottom: 20px;
 }
