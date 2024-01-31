@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poltawski+Nowy:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald:wght@600&family=Poltawski+Nowy:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@700&display=swap');
+:root {
+    --primary-color: rgb(57, 57, 190);
+    --secondary-color: rgb(23, 19, 19);
+    --accent1-color: rgb(66, 33, 33);
+    --accent2-color: rgb(171, 117, 117);
+    --heading-font: 'pridi',  serif;
+    --paragraph-font: 'poltawski ', serif;
+    --font1: 'josefin', serif;
+    --font2: 'nowy', 'sans';
+    --nav-bacground-color: rgb(54, 47, 47);
+    --nav-link-color: rgb(36, 32, 154);
+    --nav-hover-background-color: rgb(2, 48, 2);
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    font-style: italic;
+}
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.sociallinks a{
+    text-decoration: none ;
+}
+.hero {
+    position:relative ;
+}
+.hero img {
+    display: block;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero h1{
+    position: absolute;
+    text-align: center;
+    bottom: 75%;
+    color: aliceblue;
+    transform: -50%, -50%;
+    background-color: rgb(235, 233, 233, 0.5);
+    padding-left: 35%;
+    padding-right: 39.6%;
+}
+.hero article {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    background-color: rgba(7, 7, 238, 0.4);
+    padding-right: 45%;
+    /* text-align: center; */
+}
+#image {
+    float: right;
+    left: 99%;
+}
+#paragraph{
+    color: aliceblue;
+}

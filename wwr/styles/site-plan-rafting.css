@@ -11,7 +11,7 @@
     --heading-font: 'pridi', serif;
     --papragraph-font: 'poltawski', serif;
 
-    --nav-background-color: poltawskigb(88, 187, 182);
+    --nav-background-color: rgb(88, 187, 182);
     --nav-link-color: #E1FAF9;
     --nav-hover-link-color: #3066BE;
     --nav-hover-backround-color: #4A5859;
