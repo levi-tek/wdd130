@@ -1,0 +1,17 @@
+th, td {
+    padding: 10px;
+}
+table, td {
+    border-collapse: collapse;
+    border: 2px solid #333;
+}
+caption {
+    font-weight: bold;
+    font-size: smaller;
+    color: navy;
+    font-variant: small-caps;
+}
+thead, tfoot  {
+    background-color: gray;
+    color: #fff;
+}
