@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <meta name="descriptoin" content="This page contains the contact us information for the white water rafting project">
+    <meta name="author" content="Levi Oguike">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/logo.jpg" alt="white water rafting logo">
+        <nav class="link">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <img src="images/contactUs-hero-image" alt="contact Us page hero image" width="1200" height="380">
+        <article class="contact-message"> 
+            <h1>Contact Us</h1>
+            <p>We love questions and feedback - and we're always happy to help! </p>
+            <p>Here are some ways to contact us.</p>
+        </article>
+        <div class="main">
+            <div class="message">
+                <article>
+                    <h2>Send Us a Message</h2>
+                    <p>Send us a message and we'll respond within 24 hours</p>
+                </article>
+                <form action="question-and-feedback">
+                    <div class="grid1">
+                        <label for="username">Full Name</label>
+                        <input type="text" id="username" name="username">
+                        <label for="Email">Email</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <div class="grid2">
+                        <label for="purpose">What is the purpose of your message?</label>
+                        <select name="purpose" id="purpose">
+                            <option value="purpose">Choose One</option>
+                            <option value="purpose">General Inquiry</option>
+                            <option value="purpose">Reservation Question</option>
+                            <option value="purpose">Website Suggestion</option>
+                        </select>
+                        <label for="message"></label>
+                        <textarea name="message" id="message" cols="55" rows="7">Type your message here</textarea>
+                    </div>
+                    <div class="grid3">
+                        <label for="subscription">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox">
+                    </div>
+                    <button>Submit</button>
+                </form>
+            </div>
+            <div class="info">
+                <p>White Water Rafting</p>
+                <p>Phone: <a href="tel:+2349121759015">Call Now</a></p>
+                <p>Email: <a href="mailto:oguikelevi1@gmail.com">Send Email</a></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2024 White Water Rafting | Levi Oguike</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook-logo-icon.svg" alt="Facebook" width="25px">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter-logo-icon.svg" alt="Twitter" width="25px">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-logo-icon.svg" alt="Instagram" width="25px">
+            </a>
+         </nav>
+    </footer>   
+</body>
+</html>
