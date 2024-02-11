@@ -218,4 +218,6 @@ input[type="checkbox"] {
 input[type="text"] {
     border-radius: 20px;
 }
-
+h3 {
+    color:antiquewhite;
+}
