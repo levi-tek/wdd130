@@ -41,6 +41,7 @@ p {
     text-align: center;
     bottom: 75%;
     color: aliceblue;
+    transform: -50%,-50%;
     background-color: rgb(235, 233, 233, 0.5);
     padding-left: 35%;
     padding-right: 39.6%;
@@ -56,7 +57,6 @@ p {
 #image {
     float: right;
     left: 99%;
-    width: 200px;
 }
 #paragraph{
     color: aliceblue;
@@ -87,7 +87,7 @@ header nav {
     text-decoration: none;
     color: black;
 }
-.background {
+/* .background {
     background: #6a5a5a;
     padding-bottom: 10%;
 }
@@ -102,7 +102,7 @@ figure img{
     display: flex;
     justify-content: center;
     color: antiquewhite; 
-}
+} */
 footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -116,24 +116,16 @@ footer nav {
 .sociallinks a {
     margin: 0px 5px;
 }
-.adventure div {
+/* .adventure div {
     display: flex;
     flex-direction: row;
     justify-content:space-around;
     /* padding-left: 20%; */
-}
-figcaption {
+} */
+/* figcaption {
     color: bisque;
-}
-#hero {
-    width: 100%;
-}
-figure img {
-    width: 160px;
-}
-.link {
-    width: 25px;
-}
+} */
+
 /* header img {
     left: 10%;
 } */
@@ -154,3 +146,99 @@ figure img {
     padding: 20px;
     text-decoration: none;
 } */
+main img{
+    display: block;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* button {
+    margin: 1rem;
+    background-color: rgb(25, 25, 96);
+    color: antiquewhite;
+    border: none;
+    padding: .75rem;
+    font-size: 1.1rem;
+    display: grid;
+}
+button:hover {
+    background-color: darkgreen; */
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px;
+}
+.event1 img, .event2 img, .event3 img, .event4 img, .event5 img, .event6 img {
+    position: relative;
+}
+.event1 h6, .event2 h6, .event3 h6, .event4 h6, .event5 h6, .event6 h6 {
+    background-color: rgba(160, 31, 31, 0.719);
+    color: #fff;
+    border-radius: 35px;
+    padding: 7px;
+    width: 35px;
+}
+ .event1 h6 { 
+    position: absolute;
+    top: 1250px;
+    left: 315px;
+}
+.event2 h6 {
+    position: absolute;
+    top: 1250px;
+    left: 700px;
+}
+.event3 h6 {
+    position: absolute;
+    top: 1250px;
+    left: 1090px;
+}
+.event4 h6 {
+    position: absolute;
+    top: 1734px;
+    left: 315px;
+}
+.event5 h6 {
+    position: absolute;
+    top: 1734px;
+    left: 700px;
+}
+.event6 h6 {
+    position: absolute;
+    top: 1734px;
+    left: 1090px;
+}
+.event1, .event2, .event3, .event4, .event5, .event6 {
+    padding: 40px;
+    border-style:inset;
+    margin: 2px ;
+}
+.event1 button, .event5 button, .event6 button{
+    margin-top: 100px;
+    background-color: navy;
+    color: whitesmoke;
+}
+.event2 button, .event3 button, .event4 button {
+    margin-top: 85px;
+    background-color: navy;
+    color: whitesmoke;
+}
+.trips button:hover {
+    color: aquamarine;
+}
+.trips {
+    color: goldenrod ;
+}
+#action {
+    border-color: solid black;
+    background-color: rgb(51, 117, 95);
+    color: antiquewhite;
+    margin-left: 1000px;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
