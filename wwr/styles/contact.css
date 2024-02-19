@@ -41,7 +41,6 @@ p {
     text-align: center;
     bottom: 75%;
     color: aliceblue;
-    transform: -50%,-50%;
     background-color: rgb(235, 233, 233, 0.5);
     padding-left: 35%;
     padding-right: 39.6%;
@@ -221,3 +220,10 @@ input[type="text"] {
 h3 {
     color:antiquewhite;
 }
+h4{
+    color: navy;
+}
+.link {
+    width: 25px;
+}
+
