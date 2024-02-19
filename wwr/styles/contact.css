@@ -77,7 +77,6 @@ header nav {
     justify-content: center;
     list-style: none;
     align-items: center;
-    font-family: var(--heading-font) ;
 }
 .link a {
     margin: 0px 5px;
@@ -227,3 +226,4 @@ h4{
 .link {
     width: 25px;
 }
+
