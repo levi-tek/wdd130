@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6 {
     font-style: italic;
 }
 p {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:var(--paragraph-font)
 }
 .sociallinks a{
     text-decoration: none ;
@@ -203,7 +203,7 @@ button:hover {
 .main {
         display: grid;
         align-items: center;
-        background: #6a5a5a;;
+        background: #6a5a5a;
 }
 .grid2 {
     padding: 10px;
@@ -226,4 +226,22 @@ h4{
 .link {
     width: 25px;
 }
-
+.employee {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    background: #6a5a5a;;
+}
+.employee1 {
+    padding: 45px;
+}
+.employee2 {
+    margin-top: 43px;
+}
+.employee1 img, .employee2 img{
+    width: 300px;
+    height: 300px;
+}
+figcaption {
+    color: antiquewhite;
+}
