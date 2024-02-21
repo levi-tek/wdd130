@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6 {
     font-style: italic;
 }
 p {
-    font-family:var(--paragraph-font)
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .sociallinks a{
     text-decoration: none ;
@@ -153,30 +153,8 @@ main img{
     background-size: cover;
     position: relative;
 }
-.contact-message {
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    padding-right: 45%;
-}
-form {
-    width: 600px;
-    /* margin: 0 auto;    */
-    padding: 1.2rem;
-    /* border: 2px solid gray; */
-    border-radius: 0.7rem ;
-    /* background-color: #eee; */
-    /* display: grid; */
-    font-family: cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.2rem;
-    /* display: grid; */
-    column-gap: 20px;
-}
-input, select, textarea {
-    padding: 0.6rem;
-    font-size: 1rem;
-}
-button {
+
+/* button {
     margin: 1rem;
     background-color: rgb(25, 25, 96);
     color: antiquewhite;
@@ -186,62 +164,154 @@ button {
     display: grid;
 }
 button:hover {
-    background-color: darkgreen;
+    background-color: darkgreen; */
+.head h2{
+    position: absolute;
+    text-align:center;
+    color: rgb(26, 189, 181);
+    bottom: 55%;
+    padding-left: 20%;
 }
-.info {
+.head nav {
+    position: absolute;
+    background-color: aqua;
+    width:fit-content;
+    float: right;
+    bottom: 30px;
+    left: 80%;
+    border-radius: 50px;
+}
+.head a{
+    padding: 10px;
+    text-decoration: none; 
+}
+.head h1 {
+    position: absolute;
+    text-align: center;
+    bottom: 65%;
+    padding-left: 20%;
+    /* padding-right: 39.6%; */
+    color: rgb(244, 246, 248); 
+    font-weight: bolder;
+    font-size:xx-large;
+}
+.head {
     position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    padding: 50px;
 }
-.message {
-    grid-column: 2/3;
-    margin: 1rem;
-    padding: 60px;
-    left: 40px;
+.head img {
+    display: block;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 600px;
 }
-.main {
-        display: grid;
-        align-items: center;
-        background: #6a5a5a;
+/* .head article {
+    position: absolute;
+    top: 40%;
+    padding: 30px;
+} */
+form {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+form img {
+    width: 100px;
+}
+fieldset {
+    margin-top: 30px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    
+}
+fieldset h2 {
+    text-align: center;
+    bottom: 50%;
+    color: rgb(20, 94, 94);
+}
+form p {
+    /* font-size: small;     */
+    color: navy;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 30px;
+}
+input {
+    border-radius: 10px;
+    font-family: cursive;
+    padding-bottom: 1px;
 }
 .grid2 {
-    padding: 10px;
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 10px;
 }
-input[type="checkbox"] {
-    width: 20px;
-    height: 22px;
-    vertical-align: bottom;
+.news{
+    padding-left: 20px;
 }
-input[type="text"] {
-    border-radius: 20px;
+.news input {
+    float: left;
+    margin-right: 10px;
 }
-h3 {
-    color:antiquewhite;
+.news input:before {
+    height: 25px;
+    width: 25px;
+    background: #ddd;
+    border: 1px solid #000;
 }
-h4{
-    color: navy;
+.news input:checked:before {
+    background: #0f0;
+}
+button {
+    background:navy;
+    color: aliceblue;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: large;
+}
+.page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.first img {
+    width: 601px;;
+    height: 300px;
+    position: relative;
+}
+.first h3 {
+    position: absolute;
+    bottom: -80%;
+    color: white;
+    inline-size: 590px;
+    overflow-wrap: break-word;
+    background-color: rgba(75, 60, 148, 0.7);
+}
+.second {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.second img {
+    width: 290px;
+    height: 200px;
+    position: relative;
+}
+.second h3 {
+    position: absolute;
+    color: white;
+    inline-size: 250px;
+    overflow-wrap: break-word;
+    bottom:-110%;
+    background-color: rgba(75, 60, 148, 0.7);
+}
+.first {
+    padding-bottom:10px ;
 }
 .sites {
     width: 25px;
-}
-.employee {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 50px;
-    background: #6a5a5a;;
-}
-.employee1 {
-    padding: 45px;
-}
-.employee2 {
-    margin-top: 43px;
-}
-.employee1 img, .employee2 img{
-    width: 300px;
-    height: 300px;
-}
-figcaption {
-    color: antiquewhite;
 }

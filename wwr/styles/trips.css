@@ -175,7 +175,7 @@ button:hover {
 .event1 img, .event2 img, .event3 img, .event4 img, .event5 img, .event6 img {
     position: relative;
 }
-.event1 h6, .event2 h6, .event3 h6, .event4 h6, .event5 h6, .event6 h6 {
+/* .event1 h6, .event2 h6, .event3 h6, .event4 h6, .event5 h6, .event6 h6 {
     background-color: rgba(160, 31, 31, 0.719);
     color: #fff;
     border-radius: 35px;
@@ -184,37 +184,37 @@ button:hover {
 }
  .event1 h6 { 
     position: absolute;
-    top: 1250px;
+    top: 1015px;
     left: 315px;
 }
 .event2 h6 {
     position: absolute;
-    top: 1250px;
+    top: 1015px;
     left: 700px;
 }
 .event3 h6 {
     position: absolute;
-    top: 1250px;
+    top: 1015px;
     left: 1090px;
 }
 .event4 h6 {
     position: absolute;
-    top: 1734px;
+    top: 1495px;
     left: 315px;
 }
 .event5 h6 {
     position: absolute;
-    top: 1734px;
+    top: 1495px;
     left: 700px;
 }
 .event6 h6 {
     position: absolute;
-    top: 1734px;
+    top: 1495px;
     left: 1090px;
-}
+} */
 .event1, .event2, .event3, .event4, .event5, .event6 {
     padding: 40px;
-    border-style:inset;
+    border-style:outset;
     margin: 2px ;
 }
 .event1 button, .event5 button, .event6 button{
@@ -232,8 +232,9 @@ button:hover {
 }
 .trips {
     color: goldenrod ;
+    background-color: aliceblue;
 }
-#action {
+.contact {
     border-color: solid black;
     background-color: rgb(51, 117, 95);
     color: antiquewhite;
@@ -241,4 +242,25 @@ button:hover {
     margin-bottom: 10px;
     height: 30px;
     border-radius: 5px;
+    position: fixed;
+    bottom: 20%;
+    right: 0%;
+}
+.contact a {
+    color: antiquewhite;
+    font-family: var(--font1 );
+    text-decoration: none;
+}
+h2{
+    border-top-style:inset;
+    border-color: aliceblue;
+    text-align: center;
+}
+#image {
+    width: 100%;
+    height: 500px;
+}
+figure img {
+    height: 250px;
+    width: 300px;
 }

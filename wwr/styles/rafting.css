@@ -40,7 +40,7 @@ p {
     position: absolute;
     text-align: center;
     bottom: 75%;
-    color: aliceblue;
+    color: blue;
     background-color: rgb(235, 233, 233, 0.5);
     padding-left: 35%;
     padding-right: 39.6%;
@@ -131,7 +131,7 @@ figcaption {
 figure img {
     width: 160px;
 }
-.link {
+.sites {
     width: 25px;
 }
 /* header img {
