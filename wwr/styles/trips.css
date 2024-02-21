@@ -25,42 +25,6 @@ p {
 .sociallinks a{
     text-decoration: none ;
 }
-.hero {
-    position:relative ;
-}
-.hero img {
-    display: block;
-    height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.hero h1{
-    position: absolute;
-    text-align: center;
-    bottom: 75%;
-    color: aliceblue;
-    transform: -50%,-50%;
-    background-color: rgb(235, 233, 233, 0.5);
-    padding-left: 35%;
-    padding-right: 39.6%;
-}
-.hero article {
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    background-color: rgba(7, 7, 238, 0.4);
-    padding-right: 45%;
-    /* text-align: center; */
-}
-#image {
-    float: right;
-    left: 99%;
-}
-#paragraph{
-    color: aliceblue;
-}
 header {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -87,22 +51,6 @@ header nav {
     text-decoration: none;
     color: black;
 }
-/* .background {
-    background: #6a5a5a;
-    padding-bottom: 10%;
-}
-.history {
-    color: #fff;
-    padding: 2%;
-}
-figure img{
-    height: 150px ;
-}
-.adventure h2 {
-    display: flex;
-    justify-content: center;
-    color: antiquewhite; 
-} */
 footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -116,16 +64,9 @@ footer nav {
 .sociallinks a {
     margin: 0px 5px;
 }
-/* .adventure div {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    /* padding-left: 20%; */
-} */
-/* figcaption {
-    color: bisque;
-} */
-
+.sites {
+    width: 25px;
+}
 /* header img {
     left: 10%;
 } */
@@ -153,89 +94,16 @@ main img{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    width: 100%;
+    height: 500px;
 }
-
-/* button {
-    margin: 1rem;
-    background-color: rgb(25, 25, 96);
-    color: antiquewhite;
-    border: none;
-    padding: .75rem;
-    font-size: 1.1rem;
-    display: grid;
-}
-button:hover {
-    background-color: darkgreen; */
-
-.trips {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 25px;
-}
-.event1 img, .event2 img, .event3 img, .event4 img, .event5 img, .event6 img {
-    position: relative;
-}
-/* .event1 h6, .event2 h6, .event3 h6, .event4 h6, .event5 h6, .event6 h6 {
-    background-color: rgba(160, 31, 31, 0.719);
-    color: #fff;
-    border-radius: 35px;
-    padding: 7px;
-    width: 35px;
-}
- .event1 h6 { 
-    position: absolute;
-    top: 1015px;
-    left: 315px;
-}
-.event2 h6 {
-    position: absolute;
-    top: 1015px;
-    left: 700px;
-}
-.event3 h6 {
-    position: absolute;
-    top: 1015px;
-    left: 1090px;
-}
-.event4 h6 {
-    position: absolute;
-    top: 1495px;
-    left: 315px;
-}
-.event5 h6 {
-    position: absolute;
-    top: 1495px;
-    left: 700px;
-}
-.event6 h6 {
-    position: absolute;
-    top: 1495px;
-    left: 1090px;
-} */
-.event1, .event2, .event3, .event4, .event5, .event6 {
-    padding: 40px;
-    border-style:outset;
-    margin: 2px ;
-}
-.event1 button, .event5 button, .event6 button{
-    margin-top: 100px;
-    background-color: navy;
-    color: whitesmoke;
-}
-.event2 button, .event3 button, .event4 button {
-    margin-top: 85px;
-    background-color: navy;
-    color: whitesmoke;
-}
-.trips button:hover {
-    color: aquamarine;
-}
-.trips {
-    color: goldenrod ;
-    background-color: aliceblue;
+h2{
+    border-top-style:inset;
+    border-color: aliceblue;
+    text-align: center;
 }
 .contact {
-    border-color: solid black;
+    border-color: black;
     background-color: rgb(51, 117, 95);
     color: antiquewhite;
     margin-left: 1000px;
@@ -251,16 +119,82 @@ button:hover {
     font-family: var(--font1 );
     text-decoration: none;
 }
-h2{
-    border-top-style:inset;
-    border-color: aliceblue;
-    text-align: center;
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px;
+    color: navy;
+    background-color: aliceblue;
 }
-#image {
-    width: 100%;
-    height: 500px;
+.trips button:hover {
+    color: aquamarine;
+}
+.event1 img, .event2 img, .event3 img, .event4 img, .event5 img, .event6 img {
+    position: relative;
+}
+.event1, .event2, .event3, .event4, .event5, .event6 {
+    border-style:outset;
+    margin: 2px ;
 }
 figure img {
     height: 250px;
     width: 300px;
 }
+.event1 h6, .event2 h6, .event3 h6, .event4 h6, .event5 h6, .event6 h6 {
+    background-color: rgba(160, 31, 31, 0.719);
+    color: #fff;
+    border-radius: 35px;
+    padding: 7px;
+    width: 35px;
+}
+.event1 h6 { 
+    position: absolute;
+    top: 990px;
+    left: 315px;
+}
+.event2 h6 {
+    position: absolute;
+    top: 990px;
+    left: 700px;
+}
+.event3 h6 {
+    position: absolute;
+    top: 990px;
+    left: 1090px;
+}
+.event4 h6 {
+    position: absolute;
+    top: 1337px;
+    left: 315px;
+}
+.event5 h6 {
+    position: absolute;
+    top: 1337px;
+    left: 700px;
+}
+.event6 h6 {
+    position: absolute;
+    top: 1337px;
+    left: 1090px;
+}
+.event1 button, .event5 button, .event6 button{
+    margin-top: 15px;
+    background-color: navy;
+    color: whitesmoke;
+    border-radius: 4px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 28px;
+
+}
+.event2 button, .event3 button, .event4 button {
+    margin-top: 10px;
+    background-color: navy;
+    color: whitesmoke;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+
